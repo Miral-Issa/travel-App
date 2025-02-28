@@ -1,0 +1,48 @@
+main{
+    grid-area: mainBody;
+    background-color: antiquewhite;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.tripCard{
+    display: flex;
+    justify-content:flex-start;
+    gap: 1em;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid antiquewhite;
+    background-color: rgba(215, 249, 250, 0.759);
+}
+
+h3{
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+p{
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
