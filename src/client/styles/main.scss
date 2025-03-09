@@ -46,3 +46,32 @@ p{
     margin-top: 1em;
     margin-bottom: 0em;
 }
+
+@media screen and (max-width: 980px) {
+  main{
+    display: flex;
+    align-items: center;
+  }
+
+  .tripCard{
+    width: 100vw;
+    height: fit-content;
+  }
+
+  img{
+    width: 20em;
+    height: 30em;
+  }
+
+  .content{
+    font-size: 2em;
+  }
+
+  input{
+    font-size: 1.5em;
+  }
+
+  button{
+    font-size: 1.5em;
+  }
+}

@@ -1,3 +1,8 @@
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
 body{
     display: grid;
     grid-template-columns: 2fr 3fr 1fr;
@@ -6,4 +11,10 @@ body{
     "hdr hdr hdr"
     "mainBody mainBody mainBody"
     "ftr ftr ftr";
+}
+
+@media screen and (max-width: 980px) {
+    body{
+        height: 100vh;
+    }
 }

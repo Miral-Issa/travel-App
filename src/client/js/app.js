@@ -1,17 +1,17 @@
 import { save_button } from "./save_trip";
 import { remove_button } from "./remove_trip";
 
-const pixabyURL = "https://pixabay.com/api/?";
-const pixabyAPIkey = "key=49094447-2f71e092d72ef2623f34ade69";
+// const pixabyURL = "https://pixabay.com/api/?";
+// const pixabyAPIkey = "key=49094447-2f71e092d72ef2623f34ade69";
 
-const button_save_trip = document.getElementById("save");
-button_save_trip.addEventListener('click', () => {
-    save_button().then(function(forcast){
-        updateUI(forcast);
-    }).then(function(){
-        getImage(pixabyURL,pixabyAPIkey);
-    });
-});
+// const button_save_trip = document.getElementById("save");
+// button_save_trip.addEventListener('click', () => {
+//     save_button().then(function(forcast){
+//         updateUI(forcast);
+//     }).then(function(){
+//         getImage(pixabyURL,pixabyAPIkey);
+//     });
+// });
 
 const button_remove_trip = document.getElementById("remove");
 button_remove_trip.addEventListener('click', remove_button);
@@ -57,3 +57,4 @@ async function getImage(baseURL, key){
 }
 
 export {getImage};
+export{updateUI};

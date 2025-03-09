@@ -3,3 +3,12 @@ header{
     background-color: aliceblue;
     color: black;
 }
+
+@media screen and (max-width: 980px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5em;
+    }
+}

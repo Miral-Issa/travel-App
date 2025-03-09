@@ -3,3 +3,10 @@ footer{
     background-color: aliceblue;
     color: black;
 }
+
+@media screen and (max-width: 980px) {
+
+    footer{
+        font-size: 2em;
+    }
+}
